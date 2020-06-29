@@ -1,0 +1,12 @@
+.item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.item img {
+    max-width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(62, 12, 95);
+    border-radius: 10px;
+}
