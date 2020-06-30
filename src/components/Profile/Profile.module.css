@@ -1,16 +1,9 @@
-.content {
-    grid-area: c;
-    background-color: whitesmoke;
-    border: 3px solid blue;
-    border-radius: 10px;
-}
-
-.content img {
+img {
     max-width: 100%;
     border-radius: 7px;
     max-width: 100%;
 }
 
-.content .avatar {
+.avatar {
     max-width: 150px;
 }
