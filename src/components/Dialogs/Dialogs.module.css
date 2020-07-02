@@ -1,3 +1,26 @@
-* {
-    color: darkslateblue;
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    color: darkblue;
+    font-size: 22px;
+}
+
+.dialog_items {
+    padding: 10px;
+}
+
+.dialog_items .active {
+    color: red;
+}
+
+.dialog {
+
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+
 }
