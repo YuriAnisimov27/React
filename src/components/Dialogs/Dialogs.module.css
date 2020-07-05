@@ -2,36 +2,3 @@
     display: grid;
     grid-template-columns: 2fr 10fr;
 }
-
-.dialog_items {
-    padding: 10px;
-}
-
-.dialog_items a {
-    color: rgb(192, 59, 103);
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.dialog_items a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-a.active {
-    color: darkblue;
-    font-weight: bold;
-}
-
-.dialog {
-
-}
-
-.messages {
-    padding: 10px;
-}
-
-.message {
-
-}
