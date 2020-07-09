@@ -1,11 +1,12 @@
 import {reRenderEntireTree} from "../render";
 
+
 let state = {
     profilePage: {
         posts: [
-            { id: 1, post: "it's my first post", like_count: 37 },
-            { id: 2, post: 'Hello World!', like_count: 12 },
-            { id: 3, post: 'Hi, how are you?', like_count: 40 },
+            { id: 1, message: "it's my first post", like_count: 37 },
+            { id: 2, message: 'Hello World!', like_count: 12 },
+            { id: 3, message: 'Hi, how are you?', like_count: 40 },
         ],
         newPostText: 'super-text'
     },
@@ -29,13 +30,16 @@ let state = {
     }
 }
 
-export let addPost = (postMessage) => {
+window.state = state;
+
+export let addPost = () => {
     let newPost = {
         id: 5,
-        post: postMessage,
+        message: state.profilePage.newPostText,
         like_count: 0
     };
     state.profilePage.posts.push(newPost);
+    state.profilePage.newPostText = '';
     reRenderEntireTree(state);
 };
 
