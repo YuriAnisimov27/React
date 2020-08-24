@@ -15,7 +15,7 @@ const ProfileInfo = (props) => {
         <div className={classes.description_block}>
             <div>
                 <img src={props.profile.photos.large} />
-                ava + descripton
+                ava + description
             </div>
             <div><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxLkbtTa0kfmKizxJgqECQLdlt_xq1R2jEQQ&usqp=CAU' alt='avatar' className={classes.avatar}/></div>
         </div>
